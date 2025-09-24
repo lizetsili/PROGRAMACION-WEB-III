@@ -2,7 +2,7 @@ function Vocales(n){
     const vocales = { a:0, e:0, i:0, o:0, u:0 };
 
     for (let j=0; j<n.length; j++){
-        let m = n[j]; // obtenemos la letra actual
+        let m = n[j]; 
         if(m === "a" || m === "A"){
             vocales.a += 1;
         } else if (m === "e" || m === "E"){
@@ -20,4 +20,6 @@ function Vocales(n){
 };
 
 let n = Vocales("euforia");
-console.log(n); // a=1, e=1, i=1, o=1, u=1
+console.log(n); 
+
+
